@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mohamed Nibras | Portfolio</title>
+    <title>Mohamed Nibras | Premium Portfolio</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -380,31 +380,6 @@
                             </div>
                         </div>
 
-                        <!-- Cert 4: Latest Certification -->
-                        <div class="glass-card p-0 rounded-2xl group reveal overflow-hidden flex flex-col h-full">
-                            <div class="w-full relative overflow-hidden bg-black/40">
-                                <div class="absolute inset-0 bg-blue-900/10 group-hover:bg-transparent transition-colors z-10"></div>
-                                
-                                <img src="https://i.ibb.co/jPRc6LWX/4c640f06-9f40-4efe-bf67-31ecc8c8f93c.png" 
-                                     alt="Professional Certificate" 
-                                     onerror="this.src='https://via.placeholder.com/600x400/0f0c29/00f2ff?text=Certificate+Image'"
-                                     class="w-full h-auto block transform group-hover:scale-105 transition-transform duration-700">
-                            </div>
-
-                            <div class="bg-[#0f0c29] p-6 relative z-20 flex-grow flex flex-col justify-between border-t border-white/5">
-                                <div>
-                                    <span class="text-xs font-mono text-neon-cyan border border-neon-cyan/30 px-2 py-1 rounded mb-3 inline-block">Professional</span>
-                                    <h3 class="text-xl font-bold text-white mb-2 leading-tight">Professional Certification</h3>
-                                    <p class="text-gray-400 text-sm mb-4">Verified credential demonstrating advanced proficiency and technical competence.</p>
-                                </div>
-                                <div class="flex items-center text-xs text-gray-500 font-mono border-t border-white/5 pt-4 mt-auto">
-                                    <span>ID: Verified</span>
-                                    <span class="mx-auto"></span>
-                                    <span>2025</span>
-                                </div>
-                            </div>
-                        </div>
-
                     </div>
                 </div>
             </div>
@@ -425,141 +400,6 @@
                     <p class="text-xs text-gray-600 font-mono">DESIGNED & DEVELOPED BY MOHAMED NIBRAS © 2025</p>
                 </div>
             </footer>
-        </section>
-
-        <!-- PAGE 4: PROJECTS VIEW (List View) -->
-        <section id="projects-view" class="page-hidden page-container min-h-screen pt-10">
-            <div class="max-w-7xl mx-auto px-6 py-12">
-                <button onclick="navigateTo('home')" class="group flex items-center gap-2 text-gray-400 hover:text-neon-cyan transition-colors mb-12 font-mono text-sm">
-                    <i class="fas fa-arrow-left group-hover:-translate-x-1 transition-transform"></i>
-                    Back to Home
-                </button>
-
-                <div class="mb-16 animate-fade-in-up">
-                    <h1 class="text-4xl md:text-6xl font-bold mb-6"><span class="text-gradient">Featured Projects</span></h1>
-                    <p class="text-xl text-gray-400 max-w-2xl">
-                        A showcase of my latest work in automation, security, and software development.
-                    </p>
-                </div>
-
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                    <!-- Project Card: Snoop Alert (UPDATED DESIGN) -->
-                    <div class="glass-card rounded-2xl p-8 group cursor-pointer hover:border-red-500/30 hover:shadow-2xl hover:shadow-red-900/10 transition-all flex flex-col items-start" onclick="navigateTo('snoop-alert')">
-                        
-                        <!-- Top Row: Icon and Arrow -->
-                        <div class="w-full flex justify-between items-start mb-6">
-                            <!-- App Icon Placeholder (Top Left) -->
-                            <div class="w-16 h-16 rounded-2xl bg-gray-900 border border-white/10 flex items-center justify-center shadow-lg overflow-hidden group-hover:scale-105 transition-transform">
-                                <!-- Paste your App Icon Link here -->
-                                <img src="https://via.placeholder.com/150/1a1a1a/ff3333?text=Icon" alt="App Icon" class="w-full h-full object-cover">
-                            </div>
-                            
-                            <!-- Arrow Icon -->
-                            <div class="w-10 h-10 rounded-full border border-white/5 flex items-center justify-center text-gray-500 group-hover:text-white group-hover:bg-white/10 transition-colors">
-                                <i class="fas fa-arrow-right -rotate-45 group-hover:rotate-0 transition-transform duration-300"></i>
-                            </div>
-                        </div>
-
-                        <!-- Content -->
-                        <h3 class="text-2xl font-bold text-white mb-2 group-hover:text-red-400 transition-colors">Snoop Alert</h3>
-                        <p class="text-gray-400 text-sm mb-6 line-clamp-3 leading-relaxed">
-                            An advanced Android security application that uses AI face detection to secure your screen instantly. Protects privacy by detecting strangers looking over your shoulder.
-                        </p>
-
-                        <!-- Tags -->
-                        <div class="mt-auto flex flex-wrap gap-2">
-                            <span class="text-xs px-3 py-1 rounded-full bg-red-500/10 border border-red-500/20 text-red-300 font-mono">Kotlin</span>
-                            <span class="text-xs px-3 py-1 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-300 font-mono">AI/ML</span>
-                            <span class="text-xs px-3 py-1 rounded-full bg-white/5 border border-white/10 text-gray-400 font-mono">Security</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- PAGE 5: SNOOP ALERT DETAIL VIEW (Detailed View) -->
-        <section id="snoop-alert-view" class="page-hidden page-container min-h-screen pt-10">
-            <div class="max-w-7xl mx-auto px-6 py-12">
-                <button onclick="navigateTo('projects')" class="group flex items-center gap-2 text-gray-400 hover:text-green-400 transition-colors mb-8 font-mono text-sm">
-                    <i class="fas fa-arrow-left group-hover:-translate-x-1 transition-transform"></i>
-                    Back to Projects
-                </button>
-
-                <div class="glass-card rounded-3xl overflow-hidden border border-red-500/20 shadow-2xl shadow-red-900/10">
-                    <div class="grid grid-cols-1 lg:grid-cols-2">
-                        <!-- Project Info -->
-                        <div class="p-8 md:p-12 flex flex-col relative">
-                            <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-red-500 to-orange-500"></div>
-                            
-                            <!-- Header -->
-                            <div class="flex items-center gap-5 mb-8">
-                                <!-- UPDATED: Large App Icon Image Placeholder -->
-                                <div class="w-20 h-20 rounded-2xl bg-gradient-to-br from-gray-800 to-black border border-white/10 flex items-center justify-center shadow-lg shadow-red-500/10 overflow-hidden">
-                                    <!-- Paste your App Icon Link here -->
-                                    <img src="https://via.placeholder.com/150/1a1a1a/ff3333?text=Icon" alt="App Icon" class="w-full h-full object-cover">
-                                </div>
-                                <div>
-                                    <h1 class="text-4xl font-bold text-white leading-none mb-2">Snoop Alert</h1>
-                                    <div class="flex items-center gap-3">
-                                        <span class="px-2 py-0.5 rounded text-xs font-mono bg-red-500/10 text-red-400 border border-red-500/20">Security</span>
-                                        <span class="px-2 py-0.5 rounded text-xs font-mono bg-green-500/10 text-green-400 border border-green-500/20">v1.0.0</span>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <h3 class="text-xl font-bold text-white mb-4">About the App</h3>
-                            <p class="text-gray-300 leading-relaxed mb-8">
-                                Snoop Alert is an advanced Android security application designed to protect your privacy in public spaces. It uses **Google ML Kit's Face Detection** to constantly monitor the environment through the front camera. If it detects a face looking over your shoulder, it instantly triggers a 'Red Alert' screen to block content visibility.
-                            </p>
-                            
-                            <h3 class="text-xl font-bold text-white mb-4">Key Features</h3>
-                            <ul class="space-y-3 mb-8 text-gray-400 text-sm">
-                                <li class="flex items-start gap-3"><i class="fas fa-check-circle text-green-500 mt-1"></i> <span><strong>Background Protection:</strong> Runs as a foreground service to protect you even when using other apps.</span></li>
-                                <li class="flex items-start gap-3"><i class="fas fa-check-circle text-green-500 mt-1"></i> <span><strong>Offline AI:</strong> All face detection happens on-device. No images are ever sent to the cloud.</span></li>
-                                <li class="flex items-start gap-3"><i class="fas fa-check-circle text-green-500 mt-1"></i> <span><strong>Instant Trigger:</strong> Uses CameraX for low-latency video analysis.</span></li>
-                            </ul>
-
-                            <div class="mt-auto">
-                                <div class="flex gap-4">
-                                    <!-- Added target="_blank" to fix 'Content Blocked' error -->
-                                    <a href="https://www.dropbox.com/scl/fi/yuejzhvwv800hdx1i9c0u/Snoop-Alert.apk?rlkey=itwyb9y411s3uhxredi05xcxi&st=fpaqd64w&dl=1" target="_blank" rel="noopener noreferrer" class="flex-1 py-4 bg-red-600 hover:bg-red-700 text-white rounded-xl font-bold transition-colors flex items-center justify-center gap-2 shadow-lg shadow-red-600/20">
-                                        <i class="fas fa-download"></i> Download APK
-                                    </a>
-                                </div>
-                                <p class="text-xs text-gray-500 mt-4 text-center">Compatible with Android 10+</p>
-                            </div>
-                        </div>
-
-                        <!-- Visual Showcase Area -->
-                        <div class="bg-black/40 p-8 flex flex-col items-center gap-8 border-l border-white/5">
-                            
-                            <!-- Video Placeholder -->
-                            <div class="w-full aspect-video rounded-xl overflow-hidden bg-black border border-white/10 relative group">
-                                <div class="absolute inset-0 flex flex-col items-center justify-center text-gray-500">
-                                    <i class="fas fa-play-circle text-5xl mb-2 text-white/50 group-hover:text-red-500 transition-colors"></i>
-                                    <span class="text-sm font-mono">App Demo Video</span>
-                                </div>
-                                <!-- 
-                                    TO EMBED VIDEO:
-                                    1. Upload to YouTube
-                                    2. Click Share -> Embed
-                                    3. Paste the <iframe> code here
-                                -->
-                            </div>
-
-                            <!-- Screenshots -->
-                            <div class="flex gap-4 w-full justify-center">
-                                <div class="w-1/3 aspect-[9/19] rounded-lg bg-gray-800 border border-white/10 overflow-hidden relative">
-                                    <img src="https://via.placeholder.com/1080x2280/1a1a1a/ff3333?text=Home" class="w-full h-full object-cover">
-                                </div>
-                                <div class="w-1/3 aspect-[9/19] rounded-lg bg-gray-800 border border-white/10 overflow-hidden relative">
-                                    <img src="https://via.placeholder.com/1080x2280/1a1a1a/ff3333?text=Alert" class="w-full h-full object-cover">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </section>
 
 
@@ -764,36 +604,230 @@
                         </div>
                     </div>
 
-                    <!-- Cert 4: Latest Certification -->
-                    <div class="glass-card p-0 rounded-2xl group reveal overflow-hidden flex flex-col h-full">
-                        <div class="w-full relative overflow-hidden bg-black/40">
-                            <div class="absolute inset-0 bg-blue-900/10 group-hover:bg-transparent transition-colors z-10"></div>
-                            
-                            <img src="https://i.ibb.co/jPRc6LWX/4c640f06-9f40-4efe-bf67-31ecc8c8f93c.png" 
-                                 alt="Professional Certificate" 
-                                 onerror="this.src='https://via.placeholder.com/600x400/0f0c29/00f2ff?text=Certificate+Image'"
-                                 class="w-full h-auto block transform group-hover:scale-105 transition-transform duration-700">
-                        </div>
-
-                        <div class="bg-[#0f0c29] p-6 relative z-20 flex-grow flex flex-col justify-between border-t border-white/5">
-                            <div>
-                                <span class="text-xs font-mono text-neon-cyan border border-neon-cyan/30 px-2 py-1 rounded mb-3 inline-block">Professional</span>
-                                <h3 class="text-xl font-bold text-white mb-2 leading-tight">Professional Certification</h3>
-                                <p class="text-gray-400 text-sm mb-4">Verified credential demonstrating advanced proficiency and technical competence.</p>
-                            </div>
-                            <div class="flex items-center text-xs text-gray-500 font-mono border-t border-white/5 pt-4 mt-auto">
-                                <span>ID: Verified</span>
-                                <span class="mx-auto"></span>
-                                <span>2025</span>
-                            </div>
-                        </div>
-                    </div>
-
                 </div>
 
                 <!-- Footer copy for this page -->
                 <div class="mt-20 text-center text-gray-600 text-xs font-mono">
                     © 2025 MOHAMED NIBRAS
+                </div>
+            </div>
+        </section>
+
+        <!-- PAGE 4: PROJECTS VIEW (List View) -->
+        <section id="projects-view" class="page-hidden page-container min-h-screen pt-10">
+            <div class="max-w-7xl mx-auto px-6 py-12">
+                <button onclick="navigateTo('home')" class="group flex items-center gap-2 text-gray-400 hover:text-neon-cyan transition-colors mb-12 font-mono text-sm">
+                    <i class="fas fa-arrow-left group-hover:-translate-x-1 transition-transform"></i>
+                    Back to Home
+                </button>
+
+                <div class="mb-16 animate-fade-in-up">
+                    <h1 class="text-4xl md:text-6xl font-bold mb-6"><span class="text-gradient">Featured Projects</span></h1>
+                    <p class="text-xl text-gray-400 max-w-2xl">
+                        A showcase of my latest work in automation, security, and software development.
+                    </p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    
+                    <!-- Project 1: CalorieSense (NEW FLAGSHIP) -->
+                    <div class="glass-card rounded-2xl p-8 group cursor-pointer hover:border-green-500/30 hover:shadow-2xl hover:shadow-green-900/10 transition-all flex flex-col items-start" onclick="navigateTo('calorie-sense')">
+                        <!-- Top Row: Icon and Arrow -->
+                        <div class="w-full flex justify-between items-start mb-6">
+                            <!-- App Icon Placeholder -->
+                            <div class="w-16 h-16 rounded-2xl bg-gray-900 border border-white/20 flex items-center justify-center shadow-lg overflow-hidden group-hover:scale-105 transition-transform">
+                                <i class="fas fa-apple-alt text-3xl text-green-500"></i>
+                            </div>
+                            <div class="w-10 h-10 rounded-full border border-white/5 flex items-center justify-center text-gray-500 group-hover:text-white group-hover:bg-white/10 transition-colors">
+                                <i class="fas fa-arrow-right -rotate-45 group-hover:rotate-0 transition-transform duration-300"></i>
+                            </div>
+                        </div>
+
+                        <!-- Content -->
+                        <div class="flex items-center gap-3 mb-2">
+                            <h3 class="text-2xl font-bold text-white group-hover:text-green-400 transition-colors">CalorieSense</h3>
+                            <span class="text-xs px-2 py-0.5 rounded-full bg-green-500/20 border border-green-400/50 text-green-300 font-mono shadow-[0_0_15px_rgba(34,197,94,0.5)]">Web App</span>
+                        </div>
+                        
+                        <p class="text-gray-400 text-sm mb-6 line-clamp-3 leading-relaxed">
+                            AI-Powered Multimodal Nutrition Assistant using Google Gemini 2.5. identify food from photos, estimate calories, and get personalized dietary advice instantly.
+                        </p>
+
+                        <!-- Tags -->
+                        <div class="mt-auto flex flex-wrap gap-2">
+                            <span class="text-xs px-3 py-1 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-300 font-mono">Gemini AI</span>
+                            <span class="text-xs px-3 py-1 rounded-full bg-purple-500/10 border border-purple-500/20 text-purple-300 font-mono">JS</span>
+                            <span class="text-xs px-3 py-1 rounded-full bg-white/5 border border-white/10 text-gray-400 font-mono">Computer Vision</span>
+                        </div>
+                    </div>
+
+                    <!-- Project 2: Snoop Alert -->
+                    <div class="glass-card rounded-2xl p-8 group cursor-pointer hover:border-red-500/30 hover:shadow-2xl hover:shadow-red-900/10 transition-all flex flex-col items-start" onclick="navigateTo('snoop-alert')">
+                        
+                        <!-- Top Row: Icon and Arrow -->
+                        <div class="w-full flex justify-between items-start mb-6">
+                            <!-- App Icon Placeholder (Top Left) -->
+                            <div class="w-16 h-16 rounded-2xl bg-gray-900 border border-white/20 flex items-center justify-center shadow-lg overflow-hidden group-hover:scale-105 transition-transform">
+                                <img src="https://i.ibb.co/gMZjznXd/photo-6176700972596399050-y.jpg" alt="Snoop Alert App Icon" class="w-full h-full object-cover rounded-2xl">
+                            </div>
+                            
+                            <!-- Arrow Icon -->
+                            <div class="w-10 h-10 rounded-full border border-white/5 flex items-center justify-center text-gray-500 group-hover:text-white group-hover:bg-white/10 transition-colors">
+                                <i class="fas fa-arrow-right -rotate-45 group-hover:rotate-0 transition-transform duration-300"></i>
+                            </div>
+                        </div>
+
+                        <!-- Content -->
+                        <div class="flex items-center gap-3 mb-2">
+                            <h3 class="text-2xl font-bold text-white group-hover:text-red-400 transition-colors">Snoop Alert</h3>
+                            <span class="text-xs px-2 py-0.5 rounded-full bg-blue-500/20 border border-blue-400/50 text-blue-300 font-mono shadow-[0_0_15px_rgba(59,130,246,0.5)]">App</span>
+                        </div>
+                        
+                        <p class="text-gray-400 text-sm mb-6 line-clamp-3 leading-relaxed">
+                            An advanced Android security application that uses AI face detection to secure your screen instantly. Protects privacy by detecting strangers looking over your shoulder.
+                        </p>
+
+                        <!-- Tags -->
+                        <div class="mt-auto flex flex-wrap gap-2">
+                            <span class="text-xs px-3 py-1 rounded-full bg-red-500/10 border border-red-500/20 text-red-300 font-mono">Kotlin</span>
+                            <span class="text-xs px-3 py-1 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-300 font-mono">AI/ML</span>
+                            <span class="text-xs px-3 py-1 rounded-full bg-white/5 border border-white/10 text-gray-400 font-mono">Security</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PAGE 5: SNOOP ALERT DETAIL VIEW (Detailed View) -->
+        <section id="snoop-alert-view" class="page-hidden page-container min-h-screen pt-10">
+            <div class="max-w-7xl mx-auto px-6 py-12">
+                <button onclick="navigateTo('projects')" class="group flex items-center gap-2 text-gray-400 hover:text-green-400 transition-colors mb-8 font-mono text-sm">
+                    <i class="fas fa-arrow-left group-hover:-translate-x-1 transition-transform"></i>
+                    Back to Projects
+                </button>
+
+                <div class="glass-card rounded-3xl overflow-hidden border border-red-500/20 shadow-2xl shadow-red-900/10">
+                    <div class="grid grid-cols-1 lg:grid-cols-2">
+                        <!-- Project Info -->
+                        <div class="p-8 md:p-12 flex flex-col relative">
+                            <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-red-500 to-orange-500"></div>
+                            
+                            <!-- Header -->
+                            <div class="flex items-center gap-5 mb-8">
+                                <div class="w-20 h-20 rounded-2xl bg-gradient-to-br from-gray-800 to-black border border-white/20 flex items-center justify-center shadow-lg shadow-red-500/10 overflow-hidden">
+                                    <img src="https://i.ibb.co/gMZjznXd/photo-6176700972596399050-y.jpg" alt="Snoop Alert App Icon" class="w-full h-full object-cover rounded-2xl">
+                                </div>
+                                <div>
+                                    <h1 class="text-4xl font-bold text-white leading-none mb-2">Snoop Alert</h1>
+                                    <div class="flex items-center gap-3">
+                                        <span class="px-2 py-0.5 rounded text-xs font-mono bg-red-500/10 text-red-400 border border-red-500/20">Security</span>
+                                        <span class="px-2 py-0.5 rounded text-xs font-mono bg-green-500/10 text-green-400 border border-green-500/20">v1.0.0</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <h3 class="text-xl font-bold text-white mb-4">About the App</h3>
+                            <p class="text-gray-300 leading-relaxed mb-8">
+                                Snoop Alert is an advanced Android security application designed to protect your privacy in public spaces. It uses **Google ML Kit's Face Detection** to constantly monitor the environment through the front camera. If it detects a face looking over your shoulder, it instantly triggers a 'Red Alert' screen to block content visibility.
+                            </p>
+                            
+                            <h3 class="text-xl font-bold text-white mb-4">Key Features</h3>
+                            <ul class="space-y-3 mb-8 text-gray-400 text-sm">
+                                <li class="flex items-start gap-3"><i class="fas fa-check-circle text-green-500 mt-1"></i> <span><strong>Background Protection:</strong> Runs as a foreground service to protect you even when using other apps.</span></li>
+                                <li class="flex items-start gap-3"><i class="fas fa-check-circle text-green-500 mt-1"></i> <span><strong>Offline AI:</strong> All face detection happens on-device. No images are ever sent to the cloud.</span></li>
+                                <li class="flex items-start gap-3"><i class="fas fa-check-circle text-green-500 mt-1"></i> <span><strong>Instant Trigger:</strong> Uses CameraX for low-latency video analysis.</span></li>
+                            </ul>
+
+                            <div class="mt-auto">
+                                <div class="flex gap-4">
+                                    <a href="https://www.dropbox.com/scl/fi/yuejzhvwv800hdx1i9c0u/Snoop-Alert.apk?rlkey=itwyb9y411s3uhxredi05xcxi&st=fpaqd64w&dl=1" target="_blank" rel="noopener noreferrer" class="flex-1 py-4 bg-red-600 hover:bg-red-700 text-white rounded-xl font-bold transition-colors flex items-center justify-center gap-2 shadow-lg shadow-red-600/20">
+                                        <i class="fas fa-download"></i> Download APK
+                                    </a>
+                                </div>
+                                <p class="text-xs text-gray-500 mt-4 text-center">Compatible with Android 10+</p>
+                            </div>
+                        </div>
+
+                        <!-- Visual Showcase Area -->
+                        <div class="bg-black/40 p-8 flex flex-col items-center gap-8 border-l border-white/5">
+                            <div class="w-full aspect-video rounded-xl overflow-hidden bg-black border border-white/10 relative group">
+                                <div class="absolute inset-0 flex flex-col items-center justify-center text-gray-500">
+                                    <i class="fas fa-play-circle text-5xl mb-2 text-white/50 group-hover:text-red-500 transition-colors"></i>
+                                    <span class="text-sm font-mono">App Demo Video</span>
+                                </div>
+                            </div>
+                            <div class="flex gap-4 w-full justify-center">
+                                <div class="w-1/3 aspect-[9/19] rounded-lg bg-gray-800 border border-white/10 overflow-hidden relative">
+                                    <img src="https://via.placeholder.com/1080x2280/1a1a1a/ff3333?text=Home" class="w-full h-full object-cover">
+                                </div>
+                                <div class="w-1/3 aspect-[9/19] rounded-lg bg-gray-800 border border-white/10 overflow-hidden relative">
+                                    <img src="https://via.placeholder.com/1080x2280/1a1a1a/ff3333?text=Alert" class="w-full h-full object-cover">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PAGE 6: CALORIESENSE DETAIL VIEW (NEW) -->
+        <section id="calorie-sense-view" class="page-hidden page-container min-h-screen pt-10">
+            <div class="max-w-7xl mx-auto px-6 py-12">
+                <button onclick="navigateTo('projects')" class="group flex items-center gap-2 text-gray-400 hover:text-green-400 transition-colors mb-8 font-mono text-sm">
+                    <i class="fas fa-arrow-left group-hover:-translate-x-1 transition-transform"></i>
+                    Back to Projects
+                </button>
+
+                <div class="glass-card rounded-3xl overflow-hidden border border-green-500/20 shadow-2xl shadow-green-900/10">
+                    <!-- Changed from grid-cols-2 to single column since we removed the images -->
+                    <div class="flex flex-col">
+                        <!-- Project Info -->
+                        <div class="p-8 md:p-12 flex flex-col relative">
+                            <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-green-500 to-emerald-500"></div>
+                            
+                            <!-- Header -->
+                            <div class="flex items-center gap-5 mb-8">
+                                <div class="w-20 h-20 rounded-2xl bg-gradient-to-br from-gray-800 to-black border border-white/20 flex items-center justify-center shadow-lg shadow-green-500/10">
+                                    <i class="fas fa-apple-alt text-green-500 text-4xl"></i>
+                                </div>
+                                <div>
+                                    <h1 class="text-4xl font-bold text-white leading-none mb-2">CalorieSense</h1>
+                                    <div class="flex items-center gap-3">
+                                        <span class="px-2 py-0.5 rounded text-xs font-mono bg-blue-500/10 text-blue-400 border border-blue-500/20">AI Web App</span>
+                                        <!-- Removed Gemini 2.5 Flash badge here -->
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Removed Tagline Section -->
+
+                            <h3 class="text-xl font-bold text-white mb-4">About the Project</h3>
+                            <p class="text-gray-300 leading-relaxed mb-8 max-w-4xl">
+                                A sophisticated web application that automates nutritional tracking using Computer Vision. Users can upload or capture meal photos to receive instant caloric breakdowns, macronutrient analysis, and personalized dietary advice based on their unique health goals.
+                            </p>
+                            
+                            <h3 class="text-xl font-bold text-white mb-4">Key Features</h3>
+                            <ul class="space-y-3 mb-8 text-gray-400 text-sm max-w-4xl">
+                                <!-- Updated text to 'Powered by Google Gemini API' -->
+                                <li class="flex items-start gap-3"><i class="fas fa-brain text-purple-500 mt-1"></i> <span><strong>Multimodal AI Vision:</strong> Powered by Google Gemini API to identify complex food items and estimate portions from pixels.</span></li>
+                                <li class="flex items-start gap-3"><i class="fas fa-filter text-blue-500 mt-1"></i> <span><strong>NutriGuide Context Engine:</strong> Real-time 'suitability verdict' based on user goals (e.g., Keto, Low Sodium).</span></li>
+                                <li class="flex items-start gap-3"><i class="fas fa-camera text-green-500 mt-1"></i> <span><strong>Neural Scanning UI:</strong> Premium Glassmorphism design with a live hardware camera HUD.</span></li>
+                                <li class="flex items-start gap-3"><i class="fas fa-history text-yellow-500 mt-1"></i> <span><strong>Persistent Timeline:</strong> Saves full nutritional reports locally without re-calling the API.</span></li>
+                            </ul>
+
+                            <div class="mt-auto">
+                                <div class="flex gap-4">
+                                    <!-- Changed text to Visit Site -->
+                                    <a href="https://calorie-sense.netlify.app/" target="_blank" class="px-8 py-4 bg-green-600 hover:bg-green-700 text-white rounded-xl font-bold transition-colors flex items-center justify-center gap-2 shadow-lg shadow-green-600/20">
+                                        <i class="fas fa-external-link-alt"></i> Visit Site
+                                    </a>
+                                </div>
+                                <p class="text-xs text-gray-500 mt-4">Tech Stack: HTML5, Tailwind CSS, Vanilla JS, Gemini API</p>
+                            </div>
+                        </div>
+
+                        <!-- Removed Right Column (Visual Showcase Area) -->
+                    </div>
                 </div>
             </div>
         </section>
@@ -808,6 +842,7 @@
                 'home': document.getElementById('home-view'),
                 'projects': document.getElementById('projects-view'),
                 'snoop-alert': document.getElementById('snoop-alert-view'),
+                'calorie-sense': document.getElementById('calorie-sense-view'),
                 'skills': document.getElementById('skills-view'),
                 'certifications': document.getElementById('certifications-view')
             };
@@ -819,6 +854,8 @@
             // Using class replacement to ensure animation states are handled correctly
             Object.keys(views).forEach(key => {
                 const el = views[key];
+                if (!el) return; // Guard clause
+
                 if (key === viewId) {
                     el.classList.remove('page-hidden');
                     el.classList.add('page-visible');
